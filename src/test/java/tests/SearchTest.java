@@ -14,7 +14,5 @@ public class SearchTest {
         open("https://www.google.com");
         $(By.name("q")).setValue("Selenide").pressEnter();
         $("body").shouldHave(Condition.text("Selenide: лаконичные и стабильные UI тесты на Java"));
-        //2 коммит
-        //3 коммит
     }
 }
